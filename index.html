@@ -1,33 +1,56 @@
-html
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositório Simples</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arquitetura Moderna</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Meu Repositório</h1>
-    </header>
-    
-    <main>
-        <input type="text" id="itemInput" placeholder="Adicione um item...">
-        <button id="addButton">Adicionar</button>
-
-        <table id="itemTable">
-            <thead>
-                <tr>
-                    <th>Item</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Itens serão adicionados aqui -->
-            </tbody>
-        </table>
-    </main>
-
-    <script src="script.js"></script>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="sobre">
+      <h1>Sobre</h1>
+      <p>Este site apresenta projetos de arquitetura moderna.</p>
+    </section>
+    <section id="projetos">
+      <h1>Projetos</h1>
+      <div class="projeto">
+        <img src="1920x1080.jpg" alt="Projeto 1">
+        <h2>Planta de casa grande</h2>
+        <p>Planda de uma casa de grande porte e luxos ezorbitantes.</p>
+      </div>
+      <div class="projeto">
+        <img src="pha.jpg" alt="Projeto 2">
+        <h2>Planta de casa média</h2>
+        <p>Planda de uma casa de porte médio e seus luxos.</p>
+      </div>
+    </section>
+    <section id="contato">
+      <h1>Contato</h1>
+      <p>(41)9 99636-4415</p>
+      
+      <h1>(41)9 99636-4415</h1>
+      <form>
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <textarea placeholder="Mensagem"></textarea>
+        <button>Enviar</button>
+        <p>vanessa.braine@escola.pr.gov.br</p>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2024 Arquitetura Moderna
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
